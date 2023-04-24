@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- <h1 id="first_post">Welcome:::</h1> -->
+    <label id="labelUser">userId</label>
+    <input type="text" id="userId"><br>
+    <label>i_d</label>
+    <input type="text" id="i_d"> <br>
+    <label>title1</label>
+    <input type="text" id="title1"> <br>
+    <label>completed</label>
+    <input type="text" id="completed"><br>
+
+    <div id="content">
+        <!-- The fetched data will be displayed here -->
+    </div>
+    <ul id="post-list"></ul>
+
+    <button onclick="fetchData()">Fetch Data</button>
+    <button onclick="displayAllItems()">Display all items</button>
+    <button onclick="displayItemsInAxios()">Display all items based on axios</button>
+    <script src="exercice1.js"></script>
+    <!-- axios cdn -->
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+</body>
+
+</html>
